@@ -1,0 +1,6 @@
+.clock__container {
+    display: flex;
+    padding: 20px 0;
+    width: 500px;
+    justify-content: space-around;
+}

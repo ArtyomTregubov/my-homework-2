@@ -1,0 +1,23 @@
+.header__image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    animation: spin infinite 5s linear; 
+    transition: all 0.3s ease; 
+}
+
+.header__image:hover {
+  filter: drop-shadow(0 0 8px #61dafb); 
+  animation-play-state: paused; 
+}
+
+@keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}    
+
+
