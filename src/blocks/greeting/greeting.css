@@ -1,0 +1,11 @@
+.greeting {
+    width: 500px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    border-radius: 10px;
+    text-shadow: 1px 1px 0 #fff;
+    box-shadow: -5px -5px 20px #fff, 5px 5px 20px #BABECC;
+}
